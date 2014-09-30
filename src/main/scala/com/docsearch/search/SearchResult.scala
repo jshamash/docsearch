@@ -1,3 +1,3 @@
 package com.docsearch.search
 
-case class SearchResult(documentName: String, documentPosition: String, score: Int)
+case class SearchResult(documentName: String, documentPosition: Int, score: Int)
