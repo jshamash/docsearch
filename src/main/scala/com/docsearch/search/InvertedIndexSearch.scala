@@ -18,8 +18,6 @@ object InvertedIndexSearch extends Search {
       index += (term -> ((documentName, occurrences, position) :: list))
     }
     numDocs += 1
-    println(index)
-
   }
 
   def search(searchTerms: String): List[SearchResult] = {
